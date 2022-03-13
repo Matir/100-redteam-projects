@@ -5,6 +5,9 @@
                                                                        
 # 100  Red Team Projects for Pentesters and Network Managers
 
+(Forked from
+[kurogai/100-redteam-projects](https://github.com/kurogai/100-redteam-projects)])
+
 Red Teaming is one of the most attractive fields in offensive security or ethical hacking. 
 Every day professionals and students are learning, creating and exploiting all types of 
 systems. The internet is not only the most common means through which people interact 
@@ -28,11 +31,13 @@ If you enjoy this list please take the time to recommend it to a friend and foll
 
 And remember: With great power comes... (we already know).
 
+:x: for unfinished and :heavy_check_mark: for finished.
+
 -------------------------------------------------------------------------------------------------------------------------------------------
-Level 1 | Basic | Exemple
+Level 1 | Basic | Example
 ------------------------------------------------|------------------------------------------------|-----------------------------------------
-[0] | TCP or UDP server just to receive messages | :heavy_check_mark:
-[1] | TCP chat server | :heavy_check_mark:
+[0] | TCP or UDP server just to receive messages | :x:
+[1] | TCP chat server | :x:
 [2] | UDP chat server | :x:
 [3] | Multi-threaded UDP or TCP chat server | :x:
 [4] | Server for file transfers | :x:
@@ -43,16 +48,16 @@ Level 1 | Basic | Exemple
 [9] | Remote command execution | :x:
 [10] | Recreate the Netcat tool | :x:
 -------------------------------------------------------------------------------------------------------------------------------------------
-Level 2 | Essential | Exemple
+Level 2 | Essential | Example
 ------------------------------------------------|------------------------------------------------|-----------------------------------------
-[11] | Simple port scanner | :heavy_check_mark:
+[11] | Simple port scanner | :x:
 [12] | Port scanner with OS fingerprint using TTL (Time To Live) | :x:
 [13] | Port scanner with port footprint (HTTP? DNS? FTP? IRC?) | :x:
-[14] | Simple Web Directory brute-forcer (Threaded) | :heavy_check_mark:
+[14] | Simple Web Directory brute-forcer (Threaded) | :x:
 [15] | Recursive Web Directory brute-forcer (Threaded peer recursion) | :x:
 [16] | Web Login bruteforce tool | :x:
 [17] | FTP Login bruteforce tool | :x:
-[18] | SSH Login bruteforce tool | :heavy_check_mark:
+[18] | SSH Login bruteforce tool | :x:
 [19] | FTP User footprint | :x:
 [20] | MYSQL User footprint | :x:
 [21] | Simple Google Bot for web scan | :x:
@@ -66,7 +71,7 @@ Level 2 | Essential | Exemple
 [29] | SQLi database retriever | :x:
 [30] | Spam creator | :x:
 -------------------------------------------------------------------------------------------------------------------------------------------
-Level 3 | Advanced Network Attacks | Exemple
+Level 3 | Advanced Network Attacks | Example
 ------------------------------------------------|-------------------------------------------|----------------------------------------------
 [31] | Payload for reverse shell | :x:
 [32] | Payload to capture screenshots | :x:
@@ -84,7 +89,7 @@ Level 3 | Advanced Network Attacks | Exemple
 [44] | Packet Capture tool | :x:
 
 -------------------------------------------------------------------------------------------------------------------------------------------
-Level 4 | Data analysis, payloads and more networking | Exemple
+Level 4 | Data analysis, payloads and more networking | Example
 ------------------------------------------------|------------------------------------------|-----------------------------------------------
 [45] | Packet Data analysis | :x:
 [46] | Packet image analysis with OpenCV | :x:
@@ -114,7 +119,7 @@ Level 4 | Data analysis, payloads and more networking | Exemple
 [70] | Windows token privilege escalation tool | :x:
 
 -------------------------------------------------------------------------------------------------------------------------------------------
- Level 5 | Cryptography, Reverse Engineering and Post exploitation | Exemple
+ Level 5 | Cryptography, Reverse Engineering and Post exploitation | Example
 ------------------------------------------------|------------------------------------------|-----------------------------------------------
 [71] | Develop a code injection tool | :x:
 [72] | Develop a Worm with auto replication over email | :x:
@@ -147,17 +152,3 @@ Level 4 | Data analysis, payloads and more networking | Exemple
 [99] | Antivirus evasion application | :x:
 [100] | Your own metasploit module | :x:
 -------------------------------------------------------------------------------------------------------------------------------------------
-## Adding your examples
-
-You can make a pull request for the "Projects" directory and name the file in 
-compliance with the following convention:
-
-```
-[ID] PROJECT_NAME - <LANGUAGE> | AUTHOR
-```
-
-#### Example:
-
-```
-[91] Web Exploitation Framework - <C> | EONRaider
-```
